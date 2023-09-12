@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo element selector</title>
+    <style>
+        h1::before{
+            content::"before";
+            background color:read-only;
+            color: aliceblue;
+        }
+        h1:after{
+            content::"after";
+            backgraound color:brown
+            color:blue;
+        }
+        p::first-letter{
+            background-color: black;
+            color:aquamarine;
+            font size: 500px;
+
+        }
+        p::first-line{
+            background-color: blueviolet;
+            color: burlywood;
+            font size: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>psudo element selector</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod saepe eaque aperiam a veniam deserunt nam quos ullam, placeat obcaecati beatae nobis quis exercitationem nemo vero possimus ipsam repellendus mollitia.</p>
+</body>
+</html>
