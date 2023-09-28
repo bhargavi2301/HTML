@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>psudo element selector</title>
     <style>
-        h1::before{
-            content::"before";
-            background color:read-only;
-            color: aliceblue;
+        *{
+            font-size: 50px;
+            background-color: brown;
+            font-style: italic;
         }
-        h1:after{
-            content::"after";
-            backgraound color:brown
-            color:blue;
+        h1::before{
+            content:"MADHA";
+            background color:read-only;
+            color:yellow;
+        
+        }
+        h1::after{
+            content: "bhargavi";
+            background-color: blue;
+            color: white;
+            
+            
         }
         p::first-letter{
             background-color: black;
@@ -24,7 +32,7 @@
         p::first-line{
             background-color: blueviolet;
             color: burlywood;
-            font size: 500px;
+            font size: 700px;
         }
     </style>
 </head>

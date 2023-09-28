@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo element</title>
+    <style>
+        *{
+            font-size: 30PX;
+            width: 50PX;
+            height: 50PX;
+
+            
+    
+        }
+        h1::before{
+        content: "SUNRISE";
+        background-color: black;
+        color: azure;
+
+        }
+        P::after{
+            content:"SUNSHINE";
+            background-color: blue;
+            color: beige;
+            
+        }
+        h1::first-letter{
+            background-color: aquamarine;
+            color: cadetblue;
+
+        }
+        p::first-line{
+            background-color: chocolate;
+            color: bisque;
+
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>hello bhargavi</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias error laudantium qui hic quis quam perferendis inventore aliquid non quos sequi necessitatibus possimus facilis in aliquam, animi distinctio officia?</p>
+    
+    
+    
+</body>
+</html>
